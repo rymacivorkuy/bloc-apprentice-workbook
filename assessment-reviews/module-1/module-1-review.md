@@ -11,15 +11,34 @@
 ### Questions
 
 1. What is HTML and what is it used for?
+ - HTML is Hypertext Markup Language, which is used to create pages which can link to other pages.
 2. What is the difference between an ID and a class?
+  - And ID is more specific, and should only be used once in a document, whereas a class can be used as a part of many different objects to group them together with identical stylings.
 3. What does it mean to write "semantic" HTML?
+  - It means to write easily readable, efficient, and organized code so that anyone can look at it and find what they need to find.
 
 ### Exercises
 
 1. Write a paragraph tag with a class of "highlight" and content "Watch out!".
+    `<p class="highlight">Watch out!</p>`
 2. Write an HTML image tag to show an image called `profile-picture.jpg`.
+    `<img src="profile-picture.jpg" alt="Profile Picture" />
 3. Write a link tag that links to http://google.com.
-5. Write an complete standard HTML document outline (including a DOCTYPE, and `<html>`, `<head>`, and `<body>` tags).
+    `<a href="http://google.com/">http://google.com</a>`
+5. Write a complete standard HTML document outline (including a DOCTYPE, and `<html>`, `<head>`, and `<body>` tags).
+    `<!DOCTYPE html>
+     <html>
+     <head>
+     <script src="main.js"></script>
+     <link rel="stylesheet" href="main.css">
+     </head>
+     <body>
+      <ol>
+        <li>The Jungle Book</li>
+        <li>Treasure Island</li>
+        <li>The Scarlet Pimpernel</li>
+      </ol>
+     </body>`
 6. Inside of the code for the previous exercise, write the appropriate tag to link to a script file called `main.js`.
 7. Inside of the code for the previous exercise, write the appropriate tag to link to a stylesheet file called `main.css`.
 8. Write a numbered list in HTML and list three of your favorite books.
@@ -27,12 +46,12 @@
 
   ```html
   <div>
-  <ul>
-  <li>Item 1</li>
-    <li>Item 2</li>
-  <li>Item 3</li>
+    <ul>
+      <li>Item 1</li>
+      <li>Item 2</li>
+      <li>Item 3</li>
     </ul>
-    </div>
+  </div>
   ```
 
 ## CSS
@@ -40,20 +59,31 @@
 ### Questions
 
 1. What is CSS and what is it used for?
+  **Cascading Style Sheets, and it is used for styling HTML to give it color, a layout, and every other design-related feature.**
 2. What is the CSS box model?
+  **A graphic representing the spacing between the actual content, the padding, the border, and the margin.**
 3. What's the difference between margin and padding?
+  **Padding is the space between the content and the border, and margin is the space between the border and the outside of the box.**
 
 ### Exercises
 
 1. Write a CSS rule to make the text of all `h1` tags red.
+  `h1 {
+    color: red;
+    }`
 2. Write a CSS rule to make the background color of the link with `class="btn"` blue:
+   `.btn a {
+    backround-color: blue;
+    }`
 
   ```html
   <a href="#" class="btn">Learn more</a>
   ```
 
 3. Write a CSS rule to give the first paragraph in the following HTML a font size of `20px`, but not the second paragraph.
-
+   `.jumbotron p {
+    font-size: 20px;
+    }`
   ```html
   <header class="jumbotron">
     <p>Hello, World!</p>
@@ -68,15 +98,24 @@
 
 1. What is a function? What are they used for?
 2. What is the difference between `==` and `===`?
+  **The == will try and interpret two values to see if they are even. The === will evaluate to false if the two values are not the same type.**
 3. What is the difference between global and local scope variables?
+  **Global scope variables apply to every function etc within the script. Local scope variables only exist within the function etc they are declared in.**
 4. What is a boolean value?
+  **A boolean value declares whether something is true, or false.**
 5. What is an array?
+  **An array is a group of strings, numbers, other arrays, boolean values, etc all grouped together in order between two brackets.**
 
 ### Exercises
 
 1. Write a line that declares a variable called `myName` and set its value to your name.
+   `var myName = "Ryan";
 2. Write a loop that logs the numbers 1 through 10 to the console.
+   `for (var i = 1; i <= 10; i++){
+      console.log(i);
+      }`
 3. Translate the following pseudocode into JavaScript: if `score` is greater than `3` and `lives` is greater than `0`, alert "You win!".
+
 4. Write a function `sayHello` that takes one argument, a name, and logs "Hello, <name>!" to the console. Then, call the function below the function definition and pass in your name as the argument.
 5. What would the following script log to the console?
 
