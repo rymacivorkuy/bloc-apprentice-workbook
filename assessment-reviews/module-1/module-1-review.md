@@ -13,7 +13,7 @@
 1. What is HTML and what is it used for?
  - HTML is Hypertext Markup Language, which is used to create pages which can link to other pages.
 2. What is the difference between an ID and a class?
-  - And ID is more specific, and should only be used once in a document, whereas a class can be used as a part of many different objects to group them together with identical stylings.
+  - An ID is more specific, and should only be used once in a document, whereas a class can be used as a part of many different objects to group them together with identical stylings.
 3. What does it mean to write "semantic" HTML?
   - It means to write easily readable, efficient, and organized code so that anyone can look at it and find what they need to find.
 
@@ -22,7 +22,7 @@
 1. Write a paragraph tag with a class of "highlight" and content "Watch out!".
     `<p class="highlight">Watch out!</p>`
 2. Write an HTML image tag to show an image called `profile-picture.jpg`.
-    `<img src="profile-picture.jpg" alt="Profile Picture" />
+    `<img src="profile-picture.jpg" alt="Profile Picture" />`
 3. Write a link tag that links to http://google.com.
     `<a href="http://google.com/">http://google.com</a>`
 5. Write a complete standard HTML document outline (including a DOCTYPE, and `<html>`, `<head>`, and `<body>` tags).
@@ -97,8 +97,9 @@
 ### Questions
 
 1. What is a function? What are they used for?
+ **A function executes a string of commands to 
 2. What is the difference between `==` and `===`?
-  **The == will try and interpret two values to see if they are even. The === will evaluate to false if the two values are not the same type.**
+  **The == will try and interpret two values to see if they are even, and if they are, it will evaluate to "true". The === will evaluate to "false" if the two values are not of the same type, even if they contain the same values.**
 3. What is the difference between global and local scope variables?
   **Global scope variables apply to every function etc within the script. Local scope variables only exist within the function etc they are declared in.**
 4. What is a boolean value?
@@ -109,14 +110,27 @@
 ### Exercises
 
 1. Write a line that declares a variable called `myName` and set its value to your name.
-   `var myName = "Ryan";
+   `var myName = "Ryan";`
 2. Write a loop that logs the numbers 1 through 10 to the console.
    `for (var i = 1; i <= 10; i++){
       console.log(i);
       }`
 3. Translate the following pseudocode into JavaScript: if `score` is greater than `3` and `lives` is greater than `0`, alert "You win!".
+ `function testFunction (score, lives){
+ if (score > 3 && lives > 3){
+ alert("You win!");
+  }
+ }
+testFunction (5, 5);`
+  
+  
 
 4. Write a function `sayHello` that takes one argument, a name, and logs "Hello, <name>!" to the console. Then, call the function below the function definition and pass in your name as the argument.
+`function sayHello (name){
+console.log("Hello, " + name + "!");
+};
+sayHello ("Ryan");`
+
 5. What would the following script log to the console?
 
   ```javascript
@@ -130,6 +144,7 @@
 
   console.log(currentSong);
   ```
+  Answer: **Friday, Friday**
 
 6. What would the following script log to the console?
 
@@ -142,6 +157,7 @@
 
   console.log(result);
   ```
+Answer: **10**
 
 7. What would the following script log to the console?
 
@@ -160,6 +176,7 @@
 
   console.log(helloGoodbye("Sarah"));
   ```
+Answer: **Error.**
 
 8. Write a function `findLongestWord()` that takes an array of words and returns the length of the longest one.
 9. Define a function `sum()` that sums all the numbers in an array of numbers. For example, `sum([1,2,3,4])` should return 10.
@@ -183,25 +200,37 @@
 ### Questions
 
 1. What is the command line and what is it used for?
+ - Command line enables the user to directly communicate to the computer through the terminal and execute commands to do virtually anything the computer is capable of doing without the use of a user interface.
 2. What does the command `ls` do?
+ - ls lists files and folders in the current directory.
 3. What does the command `pwd` do?
+ - It prints the working directory-- i.e. "
 4. What does the following command do: `cd my-cool-project`
+ - It would change the current directory to my-cool-project.
 
 ### Exercises
 
 1. Write the command to make a new directory called "my-cool-project".
+ - `mkdir my-cool-project`
 2. Write the command to create a file called "index.html".
+ - `touch index.html`
 3. Write the command to delete a file called "main.css".
+ - `rm main.css`
 
 ## Git
 
 ### Questions
 
 1. What is Git and what is it used for?
+ - Git is an organization and collaboration system developed to save revisions of code, merge different revisions of the same code, and help people collaborate on a single project more effectively.
 2. What's the difference between a local repository and a remote repository?
+ - A local repository is a repository stored on a local machine, whereas a remote repository is one which is saved in a remote location (i.e. GitHub)
 
 ### Exercises
 
 1. Write the command that you would use to create a new local Git repository.
+`git init`
 2. Write the command to stage a file called `index.html` to be committed.
+`git add index.html`
 3. Write the command to view the current status of the git repository.
+`git status`
