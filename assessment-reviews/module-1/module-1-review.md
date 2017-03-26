@@ -28,17 +28,17 @@
 5. Write a complete standard HTML document outline (including a DOCTYPE, and `<html>`, `<head>`, and `<body>` tags).
     `<!DOCTYPE html>
      <html>
-     <head>
-     <script src="main.js"></script>
-     <link rel="stylesheet" href="main.css">
-     </head>
-     <body>
-      <ol>
-        <li>The Jungle Book</li>
+     <head>`
+     `<script src="main.js"></script>`
+     `<link rel="stylesheet" href="main.css">`
+     `</head>
+     <body>`
+      `<ol>`
+        `<li>The Jungle Book</li>
         <li>Treasure Island</li>
-        <li>The Scarlet Pimpernel</li>
-      </ol>
-     </body>`
+        <li>The Scarlet Pimpernel</li>`
+      `</ol>`
+     `</body>`
 6. Inside of the code for the previous exercise, write the appropriate tag to link to a script file called `main.js`.
 7. Inside of the code for the previous exercise, write the appropriate tag to link to a stylesheet file called `main.css`.
 8. Write a numbered list in HTML and list three of your favorite books.
@@ -47,9 +47,9 @@
   ```html
   <div>
     <ul>
-      <li>Item 1</li>
-      <li>Item 2</li>
-      <li>Item 3</li>
+      <li>The Jungle Book</li>
+      <li>Treasure Island</li>
+      <li>The Scarlet Pimpernel</li>
     </ul>
   </div>
   ```
