@@ -11,11 +11,11 @@
 ### Questions
 
 1. What is HTML and what is it used for?
- - HTML is Hypertext Markup Language, which is used to create pages which can link to other pages.
+Answer: **HTML is Hypertext Markup Language, which is used to create pages which can link to other pages.**
 2. What is the difference between an ID and a class?
-  - An ID is more specific, and should only be used once in a document, whereas a class can be used as a part of many different objects to group them together with identical stylings.
+Answer: **An ID is more specific, and should only be used once in a document, whereas a class can be used as a part of many different objects to group them together with identical stylings.**
 3. What does it mean to write "semantic" HTML?
-  - It means to write easily readable, efficient, and organized code so that anyone can look at it and find what they need to find.
+Answer: **It means to write easily readable, efficient, and organized code so that anyone can look at it and find what they need to find.**
 
 ### Exercises
 
@@ -26,19 +26,21 @@
 3. Write a link tag that links to http://google.com.
     `<a href="http://google.com/">http://google.com</a>`
 5. Write a complete standard HTML document outline (including a DOCTYPE, and `<html>`, `<head>`, and `<body>` tags).
-    `<!DOCTYPE html>
+    ```html
+     <!DOCTYPE html>
      <html>
-     <head>`
-     `<script src="main.js"></script>`
-     `<link rel="stylesheet" href="main.css">`
-     `</head>
-     <body>`
-      `<ol>`
-        `<li>The Jungle Book</li>
+     <head>
+     <script src="main.js"></script>
+     <link rel="stylesheet" href="main.css">
+     </head>
+     <body>
+      <ol>
+        <li>The Jungle Book</li>
         <li>Treasure Island</li>
-        <li>The Scarlet Pimpernel</li>`
-      `</ol>`
-     `</body>`
+        <li>The Scarlet Pimpernel</li>
+      </ol>
+     </body>
+     ```
 6. Inside of the code for the previous exercise, write the appropriate tag to link to a script file called `main.js`.
 7. Inside of the code for the previous exercise, write the appropriate tag to link to a stylesheet file called `main.css`.
 8. Write a numbered list in HTML and list three of your favorite books.
@@ -97,7 +99,7 @@
 ### Questions
 
 1. What is a function? What are they used for?
- **A function executes a string of commands to 
+ **A function executes a string of commands.**
 2. What is the difference between `==` and `===`?
   **The == will try and interpret two values (even if one is a string and one is a number or boolean value, etc) to see if they are even, and if they are, it will evaluate to "true". The === will evaluate to "false" if the two values are not of the same type, even if they contain the same value.**
 3. What is the difference between global and local scope variables?
