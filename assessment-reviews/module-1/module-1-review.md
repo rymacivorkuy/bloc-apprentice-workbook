@@ -61,9 +61,9 @@
 1. What is CSS and what is it used for?
   **Cascading Style Sheets, and it is used for styling HTML to give it color, a layout, and every other design-related feature.**
 2. What is the CSS box model?
-  **A graphic representing the spacing between the actual content, the padding, the border, and the margin.**
+  **A guideline representing the size of the actual content, padding, border, and margin.**
 3. What's the difference between margin and padding?
-  **Padding is the space between the content and the border, and margin is the space between the border and the outside of the box.**
+  **Padding is the space between the content and the border, and the margin is the space between the border and other content on the page.**
 
 ### Exercises
 
@@ -99,13 +99,13 @@
 1. What is a function? What are they used for?
  **A function executes a string of commands to 
 2. What is the difference between `==` and `===`?
-  **The == will try and interpret two values to see if they are even, and if they are, it will evaluate to "true". The === will evaluate to "false" if the two values are not of the same type, even if they contain the same values.**
+  **The == will try and interpret two values (even if one is a string and one is a number or boolean value, etc) to see if they are even, and if they are, it will evaluate to "true". The === will evaluate to "false" if the two values are not of the same type, even if they contain the same value.**
 3. What is the difference between global and local scope variables?
-  **Global scope variables apply to every function etc within the script. Local scope variables only exist within the function etc they are declared in.**
+  **Global scope variables apply to every function within the script. Local scope variables only exist within the function they are declared in.**
 4. What is a boolean value?
   **A boolean value declares whether something is true, or false.**
 5. What is an array?
-  **An array is a group of strings, numbers, other arrays, boolean values, etc all grouped together in order between two brackets.**
+  **An array is a group of strings, numbers, other arrays, boolean values, etc. all grouped together in order between two brackets.**
 
 ### Exercises
 
@@ -176,7 +176,7 @@ Answer: **10**
 
   console.log(helloGoodbye("Sarah"));
   ```
-Answer: **Error.**
+Answer: ----
 
 8. Write a function `findLongestWord()` that takes an array of words and returns the length of the longest one.
 9. Define a function `sum()` that sums all the numbers in an array of numbers. For example, `sum([1,2,3,4])` should return 10.
@@ -192,8 +192,12 @@ Answer: **Error.**
     }
   };
   ```
+  
+  Answer: **I don't know.**
 
 12. Using the same script as above, write the correct line to log the dog's name to the console.
+
+Answer: **Kevin, please help.**
 
 ## Command Line
 
