@@ -40,6 +40,7 @@ Answer: **It means to write easily readable, efficient, and organized code so th
         <li>The Scarlet Pimpernel</li>
       </ol>
      </body>
+     </html>
      ```
 6. Inside of the code for the previous exercise, write the appropriate tag to link to a script file called `main.js`.
 7. Inside of the code for the previous exercise, write the appropriate tag to link to a stylesheet file called `main.css`.
