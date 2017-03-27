@@ -180,12 +180,30 @@ Answer: **10**
 Answer: **Error?**
 
 8. Write a function `findLongestWord()` that takes an array of words and returns the length of the longest one.
-**I need help with this one.**
+```
+function findLongestWord(array){
+var longestWord = 0; 
+for (var i = 0; i < array.length; i++) {
+  var currentWordLength = array[i].length;
+  if (currentWordLength > longestWord) {
+    longestWord = currentWordLength;
+  }
+}
+  console.log(longestWord);
+}
 
+```
 9. Define a function `sum()` that sums all the numbers in an array of numbers. For example, `sum([1,2,3,4])` should return 10.
 
 ```
-function sum(
+function sum(array) {
+  var arraySum = 0;
+  for(var i = 0; i < array.length; i++){
+    arraySum = arraySum + array[i];
+  }
+  console.log(arraySum);
+};
+```
 
 10. Write a function that takes a character (i.e. a string of length 1) and returns true if it is a vowel, false otherwise.
 
@@ -203,7 +221,7 @@ Answer: **Halp**
   };
   ```
   
-  Answer: `console.log(pet.speak);`
+  Answer: `pet.speak();`
 
 12. Using the same script as above, write the correct line to log the dog's name to the console.
 
