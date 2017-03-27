@@ -102,7 +102,7 @@ Answer: **It means to write easily readable, efficient, and organized code so th
 1. What is a function? What are they used for?
  **A function executes a string of commands.**
 2. What is the difference between `==` and `===`?
-  **The == will try and interpret two values (even if one is a string and one is a number or boolean value, etc) to see if they are even, and if they are, it will evaluate to "true". The === will evaluate to "false" if the two values are not of the same type, even if they contain the same value.**
+  **The `==` will try and interpret two values (even if one is a string and one is a number or boolean value, etc) to see if they are even, and if they are, it will evaluate to "true". The `===` will evaluate to "false" if the two values are not of the same type, even if they contain the same value.**
 3. What is the difference between global and local scope variables?
   **Global scope variables apply to every function within the script. Local scope variables only exist within the function they are declared in.**
 4. What is a boolean value?
@@ -125,8 +125,6 @@ Answer: **It means to write easily readable, efficient, and organized code so th
   }
  }
 testFunction (5, 5);`
-  
-  
 
 4. Write a function `sayHello` that takes one argument, a name, and logs "Hello, <name>!" to the console. Then, call the function below the function definition and pass in your name as the argument.
 `function sayHello (name){
@@ -179,11 +177,19 @@ Answer: **10**
 
   console.log(helloGoodbye("Sarah"));
   ```
-Answer: ----
+Answer: **Error?**
 
 8. Write a function `findLongestWord()` that takes an array of words and returns the length of the longest one.
+**I need help with this one.**
+
 9. Define a function `sum()` that sums all the numbers in an array of numbers. For example, `sum([1,2,3,4])` should return 10.
+
+`
+
 10. Write a function that takes a character (i.e. a string of length 1) and returns true if it is a vowel, false otherwise.
+
+
+
 11. Write the correct line to make `"Woof!"` show up in the console based on this script:
 
   ```javascript
