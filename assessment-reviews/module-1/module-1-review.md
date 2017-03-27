@@ -191,16 +191,16 @@ Answer: ----
     name: "Charles",
     goodDog: true,
     speak: function() {
-      console.log("Woof!");
+    console.log("Woof!");
     }
   };
   ```
   
-  Answer: **I don't know.**
+  Answer: `console.log(pet.speak);`
 
 12. Using the same script as above, write the correct line to log the dog's name to the console.
 
-Answer: **Kevin, please help.**
+Answer: `console.log(pet.name);`
 
 ## Command Line
 
@@ -209,7 +209,7 @@ Answer: **Kevin, please help.**
 1. What is the command line and what is it used for?
  - Command line enables the user to directly communicate to the computer through the terminal and execute commands to do virtually anything the computer is capable of doing without the use of a user interface.
 2. What does the command `ls` do?
- - ls lists files and folders in the current directory.
+ - `ls` lists files and folders in the current directory.
 3. What does the command `pwd` do?
  - It prints the working directory-- i.e. "
 4. What does the following command do: `cd my-cool-project`
