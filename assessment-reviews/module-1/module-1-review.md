@@ -207,7 +207,29 @@ function sum(array) {
 
 10. Write a function that takes a character (i.e. a string of length 1) and returns true if it is a vowel, false otherwise.
 
-Answer: **Halp**
+```
+var vowels = ["a", "e", "i", "o", "u", "A", "E", "I", "O", "U"];
+
+var letter = prompt("Enter a letter to see if it's a vowel!");
+
+isThisAVowel (letter);
+
+function isThisAVowel (letter){
+  var isVowel = false;
+  for(var i = 0; i < vowels.length; i++){
+    if(letter == vowels[i]){
+      isVowel = true;
+    }
+  }
+    if(isVowel == true){
+      alert("Yes, " + "'" + letter + "'" + " is a vowel!");
+    }
+    else {
+      alert("No, " + "'" + letter + "'" + " is not a vowel.");
+  }
+};
+```
+**I fancified this one a little bit haha**
 
 11. Write the correct line to make `"Woof!"` show up in the console based on this script:
 
